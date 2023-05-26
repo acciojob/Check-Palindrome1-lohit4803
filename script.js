@@ -1,7 +1,5 @@
-// complete the given function
-
 function palindrome(str){
-	let s1 = str.trin()
+	let s1 = str.trim()
 	let s2 = s1.toLowerCase()
 	let i=0
 	let j=s2.length-1
@@ -12,4 +10,6 @@ function palindrome(str){
 	}
 	return true
 }
+
+// console.log(palindrome("Racecar"))
 module.exports = palindrome
